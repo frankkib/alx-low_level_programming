@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * retunr: 0 (successiful)
+ * retrun: 0 (successiful)
  */
 int main(void)
 {

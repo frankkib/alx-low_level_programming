@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	int intergertype;
-	float floattpye;
-	double doubletpye;
-	char chartype;
+	int a;
+	float b;
+	double c;
+	char d;
 
-	printf("int size: %ld bytes\n", (sizeof(integertype));
-	printf("float size: %ld bytes\n", sizeof(floattype));
-	printf("double size: %ld bytes\n", sizeof(doubletype));
-	printf("char size: %ldbyte\n", sizeof(chartype));
+	printf("int size: %ld bytes\n", (sizeof(a));
+	printf("float size: %ld bytes\n", sizeof(b));
+	printf("double size: %ld bytes\n", sizeof(c));
+	printf("char size: %ldbyte\n", sizeof(d));
 	return (0);
 }

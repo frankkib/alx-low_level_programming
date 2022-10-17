@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - the main entry
- * rand - positive or negative rondom number generated
+ * description - positive or negative rondom number generated
  * return (0)
  */
 int main(void)

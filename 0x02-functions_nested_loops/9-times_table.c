@@ -12,7 +12,6 @@ void times_table(void)
 		for (columns = 0; columns <= 9; columns++)
 		{
 			_putchar(',');
-			_putchar(' ');
 
 			times = rows * columns;
 			if (times <= 9)

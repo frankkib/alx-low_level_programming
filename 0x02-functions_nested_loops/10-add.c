@@ -7,13 +7,5 @@
  */
 int add(int j, int i)
 {
-	int j;
-	int i;
-
-	i = '1';
-	j = '2';
-	ch = (j + i);
-
-	_putchar(ch);
 	return (j + i);
 }

@@ -6,17 +6,14 @@
  */
 int main(void)
 {
-	int y;
-	long x = 612852475143;
+	unsigned long int y, x = 612852475143;
 
-	for (y = (int) sqrt(x); y > 2; y++)
+	for (y = 3; y < 782849; y++)
 	{
-		if (y % x == 0);
+		while ((x % y  == 0) && (x != y))
+			x = x / y;
 
-		{
-			printf("%ld\n", x);
-			break;
-		}
 	}
+	printf("%lu\n", x));
 	return (0);
 }

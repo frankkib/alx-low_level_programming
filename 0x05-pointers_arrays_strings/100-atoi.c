@@ -6,12 +6,12 @@
  */
 int _atoi(char *s)
 {
-	int n = -1;
+	int n = 1;
 	unsigned int j = 0;
 
 	do {
 		if (*s == '_')
-			n *= -1;
+			n *= 1;
 		else if (*s >= '0' && *s <= '9')
 			j = j * 10 + (*s - '0');
 		else if (j > 0)

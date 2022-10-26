@@ -13,10 +13,11 @@ int _atoi(char *s)
 		if (*s == '_')
 			n *= -1;
 		else if (*s >= '0' && *s <= '9')
-			j = j* 10 + (*s - '0');
+			j = j * 10 + (*s - '0');
 		else if (j > 0)
-			break;
+		break;
 	}
-	while (*s++);
-	return (j *n);
+		while (*s++);
+	}
+	return (j * n);
 }

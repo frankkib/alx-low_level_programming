@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strcat - it conticates two strings
  * @dest: the destination of the string

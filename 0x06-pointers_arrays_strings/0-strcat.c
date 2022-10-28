@@ -6,7 +6,7 @@
  * @src: string to be copied
  * Return: the pointer dest
  */
-char *_strcat(char *dest, char src)
+char *_strcat(char *dest, char *src)
 {
 	int n, m;
 
@@ -19,7 +19,7 @@ char *_strcat(char *dest, char src)
 	m = 0;
 	while (src[m] != '\0')
 	{
-		destn[n] = src[m];
+		dest[n] = src[m];
 		n++;
 		m++;
 

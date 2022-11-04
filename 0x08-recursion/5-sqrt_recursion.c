@@ -3,7 +3,7 @@
  * sqfunction - the main entry point
  * @n : ther number
  * @p: the square of the number
- * Return : -1 erroor
+ * Return: -1 erroor
  */
 int sqfunction(int n, int p)
 {

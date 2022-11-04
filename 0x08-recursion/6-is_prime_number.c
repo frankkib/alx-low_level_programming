@@ -3,7 +3,7 @@
  * prime - function for finding prime numbers
  * @i: number to be  checked
  * @j: the number of times to be checked
- * Return : prime number
+ * Return: prime number
  */
 int prime(int i, int j)
 {

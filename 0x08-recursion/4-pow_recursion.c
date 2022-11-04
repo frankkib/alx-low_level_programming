@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _pow_recursion - function that returns the power of anumber
- * @x: is the number
+ * @x: is the numbent _pow_recursion(int x, int y)r
  * @y: this is the power
  * Return: the power @x to @y
  */
@@ -16,5 +16,5 @@ int _pow_recursion(int x, int y)
 		return (1);
 	}
 	else
-		return (x * (_power_recursion(x, y - 1)));
+		return (x * _pow_recursion(x, y - 1));
 }

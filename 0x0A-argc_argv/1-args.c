@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - the function printing number of arguments passed
- * @argc: this are the number of arguments
+ * @argc: the number of arguments
  * @argv: this size of the array
  * Return: 0;
  */
-int main(int argc char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 

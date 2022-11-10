@@ -17,23 +17,23 @@ int main(int argc, char *argv[])
 		{
 			for ( ; cents >= 25; coins++)
 			{
-				cents = cents - 25;
+				cents -=  25;
 			}
 			for ( ; cents >= 10; coins++)
 			{
-				cents = cents - 10;
+				cents -= 10;
 			}
 			for ( ; cents >= 5; coins++)
 			{
-				cents = cents - 5;
+				cents -= 5;
 			}
 			for ( ; cents >= 2; coins++)
 			{
-				cents = cents - 2;
+				cents -=  2;
 			}
 			for ( ; cents >= 1; coins++)
 			{
-				cents = cents - 1;
+				cents -= 1;
 			}
 		}
 		printf("error\n");

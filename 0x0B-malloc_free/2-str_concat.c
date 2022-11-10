@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * str_concat - function that concatenates astring
  * @s1: first string

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#ifndef FILENAME 
+#ifndef FILENAME
 #define FILENAME __FILE__
 #endif
 /**

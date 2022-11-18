@@ -5,9 +5,9 @@
  * @argv: Argment vector
  * Return: 0
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
-	char op;
+	char p;
 	int a, b, nam;
 
 	a = 0;
@@ -22,8 +22,8 @@ int main(int argc, int *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	op = argv[2][0];
-	if (op != '+' && op != '-' && op != '/' && op != '*' && op != '%')
+	p = argv[2][0];
+	if (p != '+' && p != '-' && p != '/' && p != '*' && p != '%')
 	{
 		printf("Error\n");
 	exit(100);

@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * int pop_listint - function that deletes a node
+ * pop_listint - function that deletes a node
  * @head: beginning of the node
  * Return: the head node’s data (n).
  */

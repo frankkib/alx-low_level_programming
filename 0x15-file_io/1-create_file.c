@@ -19,10 +19,10 @@ int create_file(const char *filename, char *text_content)
 	{
 		for (length = 0; text_content[length];)
 			length++;
+		writeout =  write(openfile, text_content, length);
+		if (writeout != length)
+			return (-1);
 	}
-	writeout =  write(openfile, text_content, length);
-	if (writeout != length)
-		return (-1);
 	close(openfile);
 	return (1);
 }

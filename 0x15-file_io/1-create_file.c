@@ -17,6 +17,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content == NULL)
 	{
+		openfile = open(filename, O_CREAT, 0600);
 		for (length = 0; text_content[length];)
 			length++;
 		writeout =  write(openfile, text_content, length);

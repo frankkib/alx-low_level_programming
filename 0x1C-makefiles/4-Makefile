@@ -5,7 +5,7 @@ NAME = school
 RM = rm
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-%.o:%.cpp
+%.o:%.c
 		$(CC) $(CFLAGS) -c -o $@ $<
 
 all: $(OBJ)

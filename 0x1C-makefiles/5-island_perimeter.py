@@ -5,9 +5,11 @@ class island_perimeter
 
 
 def island_perimeter(grid):
+
     """
     function representation
     """
+
     perimeter = 0
     for row in range(len(grid)):
         for col in range(len(grid[0])):

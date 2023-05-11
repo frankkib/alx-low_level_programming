@@ -1,6 +1,7 @@
 #include "search_algos.h"
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 /**
  * binary_search - function that searches along the tree
  * @array: the size of the array being searched
